@@ -1,3 +1,3 @@
-# ⚡ Portfolio - Priyash Das
+# MY PORTFOLIO - PRIYASH DAS⚡ 
 
 > Visit My Portfolio [| ---> CLICK ME <--- |]()
