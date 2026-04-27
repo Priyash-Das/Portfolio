@@ -1,0 +1,52 @@
+@import url("./abstract/_variables.css");
+@import url("./base/reset.css");
+@import url("./base/typography.css");
+@import url("./layout/grid.css");
+@import url("./layout/cube.css");
+@import url("./components/navigation.css");
+@import url("./components/buttons.css");
+@import url("./components/cards.css");
+@import url("./components/forms.css");
+@import url("./components/preloader.css");
+@import url("./components/glassBackground.css");
+@import url("./components/resumeOverlay.css");
+
+#particle-canvas,
+#cursor-line {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+  z-index: 0;
+}
+
+#cursor-line {
+  z-index: var(--z-cursor);
+  mix-blend-mode: screen;
+}
+
+@media (max-width: 500px) {
+  .portfolio-container {
+    display: none !important;
+  }
+
+  #mobile-resume-button-container {
+    display: flex;
+  }
+
+  #glass-void,
+  #particle-canvas,
+  #cursor-line {
+    display: none !important;
+  }
+
+  body,
+  a,
+  button,
+  input,
+  textarea {
+    cursor: auto !important;
+  }
+}
