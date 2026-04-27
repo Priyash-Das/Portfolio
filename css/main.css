@@ -1,4 +1,4 @@
-@import url("./abstract/_variables.css");
+@import url("./abstract/variables.css");
 @import url("./base/reset.css");
 @import url("./base/typography.css");
 @import url("./layout/grid.css");
