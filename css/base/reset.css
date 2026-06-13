@@ -75,6 +75,14 @@ html:focus-within {
     transition-duration: 0s !important;
     scroll-behavior: auto !important;
   }
+
+  .cube-container.rotating {
+    transition-duration: 0.4s !important;
+  }
+
+  .cube-face .face-content {
+    transition-duration: 0.3s !important;
+  }
 }
 
 ::-webkit-scrollbar {
