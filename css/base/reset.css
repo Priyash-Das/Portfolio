@@ -6,6 +6,10 @@
   box-sizing: border-box;
 }
 
+* {
+  scrollbar-width: none;
+}
+
 html {
   -moz-text-size-adjust: none;
   -webkit-text-size-adjust: none;
@@ -86,10 +90,12 @@ html:focus-within {
 }
 
 ::-webkit-scrollbar {
-  width: 6px;
-  height: 6px;
+  display: none;
+  width: 0;
+  height: 0;
 }
 
+/*
 ::-webkit-scrollbar-track {
   background: var(--color-bg-abyss);
 }
@@ -102,6 +108,7 @@ html:focus-within {
 ::-webkit-scrollbar-thumb:hover {
   background: var(--color-primary-hi);
 }
+*/
 
 ::selection {
   background: rgba(56, 189, 248, 0.3);
