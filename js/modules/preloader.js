@@ -14,6 +14,7 @@ const STATUS_MESSAGES = [
   "..........",
   " ",
   " ",
+  " ",
   "Let's Guuu !!",
 ],
   TYPING_SPEED_MS = 0.5;
