@@ -17,7 +17,7 @@ const STATUS_MESSAGES = [
   " ",
   "Let's Guuu !!",
 ],
-  TYPING_SPEED_MS = 0.5;
+  TYPING_SPEED_MS = 8;
 function dispatchReveal() {
   document.dispatchEvent(new CustomEvent("preloader:reveal"));
 }
@@ -25,9 +25,9 @@ export function initPreloader({
   contentSelector: contentSel = ".portfolio-container",
   messages = STATUS_MESSAGES,
   startDelayMs = 300,
-  messageDelayMs = 300,
-  finalMessageDelayMs = 1e3,
-  finishDelayMs = 800,
+  messageDelayMs = 150,
+  finalMessageDelayMs = 1500,
+  finishDelayMs = 500,
   minDurationMs = 0,
 } = {}) {
   const preloader = document.getElementById("preloader"),
