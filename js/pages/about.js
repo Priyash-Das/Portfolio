@@ -30,7 +30,7 @@ document.addEventListener("DOMContentLoaded", () => {
       " ",
       " ",
       "ALMOST THERE",
-      ". . . . . . . . . . . . . . . . . . . .",
+      ". . . . . . . . . . . . . . . . .",
       " ",
       " ",
       "PAGE IS LOADED SUCCESSFULLY",
