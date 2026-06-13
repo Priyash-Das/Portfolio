@@ -29,11 +29,9 @@
   backface-visibility: visible;
 }
 
-/*
 .cube-face.active-face {
   backdrop-filter: blur(10px);
 }
-*/
 
 .cube-face .face-content {
   opacity: 0;
